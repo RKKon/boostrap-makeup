@@ -1,0 +1,129 @@
+.test_border {
+	border: 6px solid black;
+}
+html, body {
+	height: 100%;    /* должен прижимать футтур к низу, но это надо исправить */
+}
+footer {
+	color: green;
+	background-color: red;
+	padding: 15px 0 16px 0;
+	border-top: 1px solid black;
+}
+footer a {
+	color: white;
+}
+footer a:hover {
+	color: black;
+}
+
+.header a, a:hover {
+	color: darkorange !important;
+	text-decoration: none !important;
+}
+.header h1 {
+	letter-spacing: 5px;
+	font-size: 300%;
+}
+.header p {
+	color: white !important;
+	font-size: 90%;
+	letter-spacing: 3px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: white;
+    background-color: #ff0000d9;
+}
+.nav-pills>li>a {
+	color: white;
+}
+.nav-pills>li>a:hover {
+	background-color: #ff0000d9;
+}
+.navbar-inverse {
+	padding: 1%;
+}
+.clear {
+	clear: both;
+	height: 64px;
+}
+.wrapper {
+	min-height: 100%;   /* должен прижимать футтер к низу */
+}
+.border_radius {
+	text-align: center;
+}
+.border_radius img {
+	padding: 0;
+	margin: 0;
+	border: 3.5px solid #896767;
+	border-radius: 5px;
+}
+.movies-label {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.image_size {
+	width: 100%;
+	
+}
+.margin8 {
+	margin-top: 8%;
+}
+.panel-body {
+	background-color: #f9f9f9;
+}
+.panel-info>.panel-heading {
+	background-color: #f0ad4e;
+	color: white;
+	border-color: transparent;
+}
+.sidebar-header {
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+.badge {
+	background-color: black;
+}
+.navbar-inverse {
+	border-radius: 0;
+}
+.info-block {
+	font-size: 130%;	
+}
+.info-block span {
+	margin-right: 3%;
+}
+#btn_size_up {
+	padding-right: 5%;
+	padding-left: 5%;
+	
+}
+.contacts_size {
+	font-size: 150%;
+	line-height: 30px;
+}
+.table tbody>tr>td.table_text_center {
+	vertical-align: middle;
+}
+
+
+/* Phone */
+
+@media (max-width: 767px) {
+	.col-lg-12 h1 {
+		font-size: 220%;
+		text-align: center;	
+		letter-spacing: 3px;
+	}
+	.col-lg-12 p {
+		font-size: 140%;
+		text-align: center;
+		letter-spacing: 2px;	
+	}
+	.nav-pills>li {
+		float: none;
+		text-align: center;
+	}
+
+}
